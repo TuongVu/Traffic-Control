@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trafficcontrol"
+            android:icon="@drawable/ic_action_trafficcontrol"
+            android:title="Traffic Control" />
+        <item
+            android:id="@+id/nav_leads"
+            android:icon="@drawable/ic_action_leads"
+            android:title="LEADS" />
+        <item
+            android:id="@+id/nav_newprospect"
+            android:icon="@drawable/ic_action_newprospect"
+            android:title="NEW PROSPECT" />
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_action_inventory"
+            android:title="INVENTORY" />
+        <item
+            android:id="@+id/nav_mailbox"
+            android:icon="@drawable/ic_action_mailbox"
+            android:title="MAILBOX" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="LOGOUT" />
+    </group>
+
+
+
+</menu>
