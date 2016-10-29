@@ -7,14 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Tuong on 10/26/16.
+ * Created by Tuong on 10/27/2016.
  */
 
-public class TrafficControlFragment extends Fragment {
-    public static String TAG = "TrafficControlFragment";
+public class LeadsFragment extends Fragment {
+    public static String TAG = "LeadsFragment";
 
 
-    public TrafficControlFragment() {
+    public LeadsFragment() {
         // Required empty public constructor
     }
 
@@ -23,6 +23,6 @@ public class TrafficControlFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.traffic_control_layout, container, false);
+        return inflater.inflate(R.layout.leads_layout, container, false);
     }
 }

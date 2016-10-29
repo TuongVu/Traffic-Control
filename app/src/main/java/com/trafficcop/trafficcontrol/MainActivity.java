@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        onNavigationItemSelected(navigationView.getMenu().getItem(0));
     }
 
     @Override
@@ -90,7 +91,8 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.content_main,new TrafficControlFragment(),TrafficControlFragment.TAG);
             ft.commit();
         } else if (id == R.id.nav_leads) {
-
+            ft.replace(R.id.content_main,new LeadsFragment(),LeadsFragment.TAG);
+            ft.commit();
         } else if (id == R.id.nav_newprospect) {
 
         } else if (id == R.id.nav_inventory) {
